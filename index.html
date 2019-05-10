@@ -4,20 +4,81 @@
   <meta charset="utf-8" /> 
   <title>CuFeS2</title> 
  </head> 
+ <style type="text/css">
+  body,ul,li,a
+  {
+    padding: 0;
+    margin: 0;
+  }
+  body
+  {
+    margin-top: 50px;
+    background-color:#e6e6e6;
+    color: #fff; 
+  }
+  .menu
+  {
+    font-size: 0;
+    padding: 0;
+    height: 50px;
+    padding-left: 5%;
+    background-color: #00a2ca;
+    position: relative;
+  }
+  .menubar
+  {
+    margin: 0 auto;
+    position: absolute;
+    list-style-type: none;
+    width: 100%;
+    overflow-y: auto;
+  }
+ 
+  .menubar li
+  {
+    padding:0px 5px;
+    display:inline-block;
+    cursor: pointer;
+    line-height: 50px;    
+  }
+  .menubar li:hover
+  {
+  background-color:#0095bb;
+  }
+  .menubar li.menu-value
+  {
+    background-color: #0095bb;  
+  }
+ 
+  .menubar a
+  {
+    display: block;
+    height: 50px;
+    font-family: "微软雅黑","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"宋体" ;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+  }
+ 
+</style>
+ 
  <body> 
   <div id="container" style="width:1250px"> 
    <div id="header" style="background-color:#EEA9B8;">  
     <h1 style="margin-bottom:0;font-style: italic">CuFeS2的小站</h1> 
     <img src="/cufes2.github.io/head.jpg " alt="head" width="1250" height="208" />
    </div> 
-   <div id="menu" style="background-color:#EE3A8C;height:900px;width:85px;float:left;"> 
-    <p style="text-align:center;font-weight:900">MENU</p> 
-    <p style="text-align:center;"><a href="/nmd.html">资源分享</a></p> 
-    <p align="center"><a href="/xx.html">学习笔记</a></p> 
-    <p align="center"><a href="/history.html">小事记</a></p> 
-   </div> 
+   <div class="menu">
+  <ul class="menubar">
+    <li class="" ><a href="/nmd.html">资源分享</a></li>
+    <li class="" ><a href="/xx.html">学习笔记</a></li>
+    <li class="" ><a href="/history.html">小事记</a></li>
+    <li class="" ><a href="">更多</a></li>
+  </ul>
+</div>
    <div id="content" style="background-color:#EEEEEE;height:900px;width:1165px;float:left;"> 
-    <p> 这里是练习计算机两天半的实习生CuFeS2的站点。</p> 
+    <p> 这里是练习计算机两天半的练习生CuFeS2的站点。</p> 
     <p><img src="/cufes2.github.io/1.jpg" alt="cufes21" width="1165" height="755" /></p> 
    </div> 
    <div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
