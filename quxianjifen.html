@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>曲线积分</title>
+</head>
+<body>
+	<h1>曲线积分</h1>
+	<h2>对弧长的曲线积分</h2>
+	<p>本质：线密度的积分（无方向）</p>
+	<p>实例：<a href="https://www.codecogs.com/eqnedit.php?latex=\int_{L}^{&space;}f(x,y)ds" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_{L}^{&space;}f(x,y)ds" title="\int_{L}^{ }f(x,y)ds" /></a></p>
+	<P>计算：<a href="https://www.codecogs.com/eqnedit.php?latex=\int_{L}^{&space;}f(x,y)ds=\int_{a}^{b}f[\varphi&space;(t),\psi&space;(t)]\sqrt{\varphi&space;'^{2}{(t)}&plus;\psi'^{2}{(t)}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_{L}^{&space;}f(x,y)ds=\int_{a}^{b}f[\varphi&space;(t),\psi&space;(t)]\sqrt{\varphi&space;'^{2}{(t)}&plus;\psi'^{2}{(t)}}" title="\int_{L}^{ }f(x,y)ds=\int_{a}^{b}f[\varphi (t),\psi (t)]\sqrt{\varphi '^{2}{(t)}+\psi'^{2}{(t)}}" /></a>&&&<a href="https://www.codecogs.com/eqnedit.php?latex=ds=\sqrt{1&plus;z_{x}^{2}(x,y)&plus;z_{y}^{2}(x,y)}dxdy" target="_blank"><img src="https://latex.codecogs.com/gif.latex?ds=\sqrt{1&plus;z_{x}^{2}(x,y)&plus;z_{y}^{2}(x,y)}dxdy" title="ds=\sqrt{1+z_{x}^{2}(x,y)+z_{y}^{2}(x,y)}dxdy" /></a>（借用参数方程的方法）</P>
+	<h2>对坐标的曲线积分</h2>
+	<p>本质：功（有方向）</p>
+	<p>实例：<a href="https://www.codecogs.com/eqnedit.php?latex=\int_{L}^{&space;}P(x,y)dx&plus;Q(x,y)dy" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_{L}^{&space;}P(x,y)dx&plus;Q(x,y)dy" title="\int_{L}^{ }P(x,y)dx+Q(x,y)dy" /></a></p>
+	<P>计算：<a href="https://www.codecogs.com/eqnedit.php?latex=\int_{L}^{&space;}P(x,y)dx&plus;Q(x,y)dy=\int_{a}^{b}\{{P[\varphi&space;(t),\psi&space;(t)]}\varphi'{(t)}&plus;{Q[\varphi&space;(t),\psi&space;(t)]}\psi'{(t)}\}dt" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_{L}^{&space;}P(x,y)dx&plus;Q(x,y)dy=\int_{a}^{b}\{{P[\varphi&space;(t),\psi&space;(t)]}\varphi'{(t)}&plus;{Q[\varphi&space;(t),\psi&space;(t)]}\psi'{(t)}\}dt" title="\int_{L}^{ }P(x,y)dx+Q(x,y)dy=\int_{a}^{b}\{{P[\varphi (t),\psi (t)]}\varphi'{(t)}+{Q[\varphi (t),\psi (t)]}\psi'{(t)}\}dt" /></a></P>
+	<h2>格林公式</h2>
+	<p>公式：<a href="https://www.codecogs.com/eqnedit.php?latex=\oint_{L}^{&space;}Pdx&plus;Qdy=\iint_{D}^{&space;}(\frac{\partial&space;Q}{\partial&space;x}-\frac{\partial&space;P}{\partial&space;y})dxdy" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\oint_{L}^{&space;}Pdx&plus;Qdy=\iint_{D}^{&space;}(\frac{\partial&space;Q}{\partial&space;x}-\frac{\partial&space;P}{\partial&space;y})dxdy" title="\oint_{L}^{ }Pdx+Qdy=\iint_{D}^{ }(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y})dxdy" /></a></p>
+	<p>若路径无关有</p>
+	<p>>1 在D内，<a href="https://www.codecogs.com/eqnedit.php?latex=\oint_{L}^{&space;}Pdx&plus;Qdy" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\oint_{L}^{&space;}Pdx&plus;Qdy" title="\oint_{L}^{ }Pdx+Qdy" /></a>与路径无关</p>
+	<p>>2 在D内存在u(x,y),使<a href="https://www.codecogs.com/eqnedit.php?latex=du(x,y)=Pdx&plus;Qdy" target="_blank"><img src="https://latex.codecogs.com/gif.latex?du(x,y)=Pdx&plus;Qdy" title="du(x,y)=Pdx+Qdy" /></a></p>
+	<p>>3 在D内，<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;P}{\partial&space;y}=\frac{\partial&space;Q}{\partial&space;x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;P}{\partial&space;y}=\frac{\partial&space;Q}{\partial&space;x}" title="\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}" /></a></p>
+	<p>>4 <a href="https://www.codecogs.com/eqnedit.php?latex=\oint&space;Pdx&plus;Qdy=0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\oint&space;Pdx&plus;Qdy=0" title="\oint Pdx+Qdy=0" /></a></p>
+</body>
+</html>
